@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.API\\Cars.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.API\\Cars.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.API\\Cars.API.csproj",
+        "projectName": "Cars.API",
+        "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.API\\Cars.API.csproj",
+        "packagesPath": "C:\\Users\\Uros-QCerris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uros-QCerris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Application\\Cars.Application.csproj": {
+                "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Application\\Cars.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Application\\Cars.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Application\\Cars.Application.csproj",
+        "projectName": "Cars.Application",
+        "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Application\\Cars.Application.csproj",
+        "packagesPath": "C:\\Users\\Uros-QCerris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uros-QCerris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj": {
+                "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj"
+              },
+              "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Infrastructure\\Cars.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj",
+        "projectName": "Cars.Domain",
+        "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj",
+        "packagesPath": "C:\\Users\\Uros-QCerris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uros-QCerris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Entities": {
+              "target": "Package",
+              "version": "[21.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Infrastructure\\Cars.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Infrastructure\\Cars.Infrastructure.csproj",
+        "projectName": "Cars.Infrastructure",
+        "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Infrastructure\\Cars.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Uros-QCerris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Uros-QCerris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj": {
+                "projectPath": "C:\\Users\\Uros-QCerris\\RiderProjects\\Cars\\Cars.Domain\\Cars.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
